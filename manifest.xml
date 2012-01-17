@@ -1,0 +1,6 @@
+  <?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+    <project path="libosock"
+             name="tools/libosock"
+             revision="https://git.gitorious.org/libosock/libosock-dev.git" />
+  </manifest>
