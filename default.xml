@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- remotes -->
+  <remote  name="gitorious"
+           fetch="git@gitorious.org:" />
+  <remote  name="nicolas"
+           fetch="https://github.com/nicolasgramlich/" />
+
+<!-- default values -->
+  <default revision="master"
+           remote="gitorious" />
+
+<!-- projects -->
+
+<!-- spin- application stub -->
+  <project path="spin"
+           remote="gitorious"
+           name="ae-spin/ae-spin.git" />
+
+<!-- andengine core + extensions -->
+  <project path="AndEngine"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngine.git" />
+  <project path="AndEngineLiveWallpaperExtension"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngineLiveWallpaperExtension.git" />
+  <project path="AndEngineTexturePackerExtension"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngineTexturePackerExtension.git" />
+  <project path="AndEngineTest"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngineTest.git" />
+  <project path="AndEngineTMXTiledMapExtension"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngineTMXTiledMapExtension.git" />
+  <project path="AndEngineSVGTextureRegionExtension"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngineSVGTextureRegionExtension.git" />
+  <project path="AndEnginePhysicsBox2DExtension"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEnginePhysicsBox2DExtension.git" />
+  <project path="AndEngineMultiplayerExtension"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngineMultiplayerExtension.git" />
+<!-- XXX: switch from master to GLES2 branch (if it will be created) -->
+  <project path="AndEngineMODPlayerExtension"
+           remote="nicolas"
+           name="AndEngineMODPlayerExtension.git" />
+  <project path="AndEngineAugmentedRealityExtension"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngineAugmentedRealityExtension.git" />
+  <project path="AndEngineExamples"
+           revision="GLES2"
+           remote="nicolas"
+           name="AndEngineExamples.git" />
+</manifest>
