@@ -2,7 +2,7 @@
 <manifest>
 <!-- remotes -->
   <remote  name="gitorious"
-           fetch="git@gitorious.org:" />
+           fetch="https://git.gitorious.org/" />
   <remote  name="nicolas"
            fetch="https://github.com/nicolasgramlich/" />
 
