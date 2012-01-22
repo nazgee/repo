@@ -17,6 +17,11 @@
            remote="gitorious"
            name="ae-spin/ae-spin.git" />
 
+<!-- utils -->
+  <project path="utils"
+           remote="gitorious"
+           name="ae-utils/ae-utils.git" />
+
 <!-- andengine core + extensions -->
   <project path="AndEngine"
            revision="GLES2"
