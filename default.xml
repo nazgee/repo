@@ -46,7 +46,7 @@
            remote="nicolas"
            name="AndEngineTMXTiledMapExtension.git" />
   <project path="AndEngineSVGTextureRegionExtension"
-           revision="GLES2"
+           revision="eagle"
            remote="nazgee"
            name="AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
