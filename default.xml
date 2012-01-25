@@ -3,7 +3,7 @@
 <!-- remotes -->
   <remote  name="gitorious"
            fetch="https://git.gitorious.org/" />
-  <remote  name="github"
+  <remote  name="nazgee"
            fetch="https://github.com/nazgee/" />
   <remote  name="nicolas"
            fetch="https://github.com/nicolasgramlich/" />
@@ -16,12 +16,12 @@
 
 <!-- eagle game core -->
   <project path="eagle"
-           remote="github"
+           remote="nazgee"
            name="eagle" />
 
 <!-- custom andengine utils -->
   <project path="utils"
-           remote="github"
+           remote="nazgee"
            name="ae-utils" />
 
 <!-- andengine core + extensions -->
@@ -42,12 +42,12 @@
            remote="nicolas"
            name="AndEngineTest.git" />
   <project path="AndEngineTMXTiledMapExtension"
-           revision="GLES2"
-           remote="nicolas"
-           name="AndEngineTMXTiledMapExtension.git" />
-  <project path="AndEngineSVGTextureRegionExtension"
            revision="eagle"
            remote="nazgee"
+           name="AndEngineTMXTiledMapExtension.git" />
+  <project path="AndEngineSVGTextureRegionExtension"
+           revision="GLES2"
+           remote="nicolas"
            name="AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
            revision="GLES2"
