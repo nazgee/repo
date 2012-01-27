@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- remotes -->
-  <remote  name="gitorious"
-           fetch="https://git.gitorious.org/" />
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
   <remote  name="nazgee"
            fetch="https://github.com/nazgee/" />
   <remote  name="nicolas"
@@ -10,14 +10,14 @@
 
 <!-- default values -->
   <default revision="master"
-           remote="gitorious" />
+           remote="nicolas" />
 
 <!-- projects -->
 
 <!-- eagle game core -->
   <project path="eagle"
-           remote="nazgee"
-           name="eagle" />
+           remote="github-ssh"
+           name="nazgee/eagle" />
 
 <!-- custom andengine utils -->
   <project path="utils"
@@ -57,7 +57,6 @@
            revision="GLES2"
            remote="nicolas"
            name="AndEngineMultiplayerExtension.git" />
-<!-- XXX: switch from master to GLES2 branch (if it will be created) -->
   <project path="AndEngineMODPlayerExtension"
            remote="nicolas"
            name="AndEngineMODPlayerExtension.git" />
