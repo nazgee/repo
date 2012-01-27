@@ -9,7 +9,7 @@
            fetch="https://github.com/nicolasgramlich/" />
 
 <!-- default values -->
-  <default revision="master"
+  <default revision="GLES2"
            remote="nicolas" />
 
 <!-- projects -->
@@ -17,55 +17,40 @@
 <!-- eagle game core -->
   <project path="eagle"
            remote="github-ssh"
+           revision="master"
            name="nazgee/eagle" />
 
 <!-- custom andengine utils -->
   <project path="utils"
            remote="nazgee"
+           revision="master"
            name="ae-utils" />
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEngine.git" />
   <project path="AndEngineLiveWallpaperExtension"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEngineLiveWallpaperExtension.git" />
   <project path="AndEngineTexturePackerExtension"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEngineTexturePackerExtension.git" />
   <project path="AndEngineTest"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEngineTest.git" />
   <project path="AndEngineTMXTiledMapExtension"
            revision="eagle"
            remote="nazgee"
            name="AndEngineTMXTiledMapExtension.git" />
   <project path="AndEngineSVGTextureRegionExtension"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEnginePhysicsBox2DExtension.git" />
   <project path="AndEngineMultiplayerExtension"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEngineMultiplayerExtension.git" />
   <project path="AndEngineMODPlayerExtension"
+           revision="master"
            remote="nicolas"
            name="AndEngineMODPlayerExtension.git" />
   <project path="AndEngineAugmentedRealityExtension"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEngineAugmentedRealityExtension.git" />
   <project path="AndEngineExamples"
-           revision="GLES2"
-           remote="nicolas"
            name="AndEngineExamples.git" />
 </manifest>
