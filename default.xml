@@ -27,7 +27,9 @@
            name="ae-utils" />
 
 <!-- andengine core + extensions -->
+<!-- TODO: Switch back to nicholas, when he fixes his branch -->
   <project path="AndEngine"
+           remote="nazgee"
            name="AndEngine.git" />
   <project path="AndEngineLiveWallpaperExtension"
            name="AndEngineLiveWallpaperExtension.git" />
@@ -36,7 +38,6 @@
   <project path="AndEngineTest"
            name="AndEngineTest.git" />
   <project path="AndEngineTMXTiledMapExtension"
-           revision="eagle"
            remote="nazgee"
            name="AndEngineTMXTiledMapExtension.git" />
   <project path="AndEngineSVGTextureRegionExtension"
