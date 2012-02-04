@@ -22,9 +22,9 @@
 
 <!-- custom andengine utils -->
   <project path="utils"
-           remote="nazgee"
+           remote="github-ssh"
            revision="master"
-           name="ae-utils" />
+           name="nazgee/ae-utils" />
 
 <!-- andengine core + extensions -->
 <!-- TODO: Switch back to nicholas, when he fixes his branch -->
