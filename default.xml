@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- remotes -->
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
+  <remote  name="github-git"
+           fetch="git://github.com" />
+
+<!-- default values -->
+  <default revision="GLES2"
+           remote="github-git" />
+
+<!-- andengine core + extensions -->
+  <project path="AndEngine"
+           name="nicolasgramlich/AndEngine.git" />
+  <project path="AndEngineLiveWallpaperExtension"
+           name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
+  <project path="AndEngineTexturePackerExtension"
+           name="nicolasgramlich/AndEngineTexturePackerExtension.git" />
+  <project path="AndEngineTest"
+           name="AndEngineTest.git" />
+  <project path="AndEngineTMXTiledMapExtension"
+           name="nicolasgramlich/AndEngineTMXTiledMapExtension.git" />
+  <project path="AndEngineSVGTextureRegionExtension"
+           name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
+  <project path="AndEnginePhysicsBox2DExtension"
+           name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
+  <project path="AndEngineMultiplayerExtension"
+           name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
+  <project path="AndEngineMODPlayerExtension"
+           revision="master"
+           remote="nicolas"
+           name="nicolasgramlich/AndEngineMODPlayerExtension.git" />
+  <project path="AndEngineAugmentedRealityExtension"
+           name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" />
+  <project path="AndEngineExamples"
+           name="nicolasgramlich/AndEngineExamples.git" />
+</manifest>
