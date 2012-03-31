@@ -5,6 +5,8 @@
            fetch="ssh://git@github.com" />
   <remote  name="github-git"
            fetch="git://github.com" />
+  <remote  name="github-https"
+           fetch="https://github.com" />
 
 <!-- default values -->
   <default revision="GLES2"
@@ -18,7 +20,7 @@
   <project path="AndEngineTexturePackerExtension"
            name="nicolasgramlich/AndEngineTexturePackerExtension.git" />
   <project path="AndEngineTest"
-           name="AndEngineTest.git" />
+           name="nicolasgramlich/AndEngineTest.git" />
   <project path="AndEngineTMXTiledMapExtension"
            name="nicolasgramlich/AndEngineTMXTiledMapExtension.git" />
   <project path="AndEngineSVGTextureRegionExtension"
@@ -27,12 +29,11 @@
            name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
   <project path="AndEngineMultiplayerExtension"
            name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
-  <project path="AndEngineMODPlayerExtension"
-           revision="master"
-           remote="nicolas"
-           name="nicolasgramlich/AndEngineMODPlayerExtension.git" />
   <project path="AndEngineAugmentedRealityExtension"
            name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" />
   <project path="AndEngineExamples"
            name="nicolasgramlich/AndEngineExamples.git" />
+  <project path="AndEngineMODPlayerExtension"
+           name="nicolasgramlich/AndEngineMODPlayerExtension.git"
+           revision="master" />
 </manifest>
