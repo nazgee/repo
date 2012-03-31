@@ -36,4 +36,9 @@
   <project path="AndEngineMODPlayerExtension"
            name="nicolasgramlich/AndEngineMODPlayerExtension.git"
            revision="master" />
+
+<!-- application-specific projects -->
+  <project path="simple"
+           name="nazgee/ae-stub.git"
+           revision="simple" />
 </manifest>
