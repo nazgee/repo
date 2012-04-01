@@ -40,5 +40,8 @@
 <!-- application-specific projects -->
   <project path="simple"
            name="nazgee/ae-stub.git"
-           revision="simple" />
+           revision="simple-with-nazgee-utils" />
+  <project path="utils"
+           name="nazgee/ae-utils.git"
+           revision="pure" />
 </manifest>
