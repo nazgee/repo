@@ -38,9 +38,10 @@
            revision="master" />
 
 <!-- application-specific projects -->
-  <project path="simple"
-           name="nazgee/ae-stub.git"
-           revision="simple-with-nazgee-utils" />
+  <project path="bubblewrap"
+           name="nazgee/bubblewrap.git"
+           revision="master"
+           remote="github-ssh" />
   <project path="utils"
            name="nazgee/ae-utils.git"
            revision="pure" />
