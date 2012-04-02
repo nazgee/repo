@@ -7,6 +7,8 @@
            fetch="git://github.com" />
   <remote  name="github-https"
            fetch="https://github.com" />
+  <remote  name="github-http"
+           fetch="http://github.com" />
 
 <!-- default values -->
   <default revision="GLES2"
@@ -38,9 +40,10 @@
            revision="master" />
 
 <!-- application-specific projects -->
-  <project path="simple"
-           name="nazgee/ae-stub.git"
-           revision="simple-with-nazgee-utils" />
+  <project path="bubblewrap"
+           name="nazgee/bubblewrap.git"
+           revision="master"
+           remote="github-http" />
   <project path="utils"
            name="nazgee/ae-utils.git"
            revision="pure" />
