@@ -1,48 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- remotes -->
-  <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
-  <remote  name="github-git"
-           fetch="git://github.com" />
-  <remote  name="github-https"
-           fetch="https://github.com" />
-
-<!-- default values -->
-  <default revision="GLES2"
-           remote="github-git" />
-
-<!-- andengine core + extensions -->
-  <project path="AndEngine"
-           name="nicolasgramlich/AndEngine.git" />
-  <project path="AndEngineLiveWallpaperExtension"
-           name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
-  <project path="AndEngineTexturePackerExtension"
-           name="nicolasgramlich/AndEngineTexturePackerExtension.git" />
-  <project path="AndEngineTest"
-           name="nicolasgramlich/AndEngineTest.git" />
-  <project path="AndEngineTMXTiledMapExtension"
-           name="nicolasgramlich/AndEngineTMXTiledMapExtension.git" />
-  <project path="AndEngineSVGTextureRegionExtension"
-           name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
-  <project path="AndEnginePhysicsBox2DExtension"
-           name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
-  <project path="AndEngineMultiplayerExtension"
-           name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
-  <project path="AndEngineAugmentedRealityExtension"
-           name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" />
-  <project path="AndEngineExamples"
-           name="nicolasgramlich/AndEngineExamples.git" />
-  <project path="AndEngineMODPlayerExtension"
-           name="nicolasgramlich/AndEngineMODPlayerExtension.git"
-           revision="master" />
-
-<!-- application-specific projects -->
-  <project path="bubblewrap"
-           name="nazgee/bubblewrap.git"
-           revision="master"
-           remote="github-ssh" />
-  <project path="utils"
-           name="nazgee/ae-utils.git"
-           revision="pure" />
+  <remote fetch="git://github.com" name="github-git"/>
+  <remote fetch="https://github.com" name="github-https"/>
+  <remote fetch="ssh://git@github.com" name="github-ssh"/>
+  
+  <default remote="github-git" revision="GLES2"/>
+  
+  <project name="nazgee/ae-utils.git" path="utils" revision="ae591b6f81998b078391a8dda9215cd39b7f5251"/>
+  <project name="nazgee/bubblewrap.git" path="bubblewrap" remote="github-ssh" revision="7370ca027a1d1856091aade0b78717646593743a"/>
+  <project name="nicolasgramlich/AndEngine.git" path="AndEngine" revision="62433ae55ce22df1cf6dfe05423a47c90ca3f93f"/>
+  <project name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" path="AndEngineAugmentedRealityExtension" revision="4134b76b1d8d70ed5d5dc986c102697538ef3506"/>
+  <project name="nicolasgramlich/AndEngineExamples.git" path="AndEngineExamples" revision="4ec3c1b9c783cd4a858383e880a3b4d74dc2a5df"/>
+  <project name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" path="AndEngineLiveWallpaperExtension" revision="c03d0c50482b9634954ac3025c6f576b22045645"/>
+  <project name="nicolasgramlich/AndEngineMODPlayerExtension.git" path="AndEngineMODPlayerExtension" revision="bdfcbf3b4fcc9cb3a18eb6411d66b9387b0011f6"/>
+  <project name="nicolasgramlich/AndEngineMultiplayerExtension.git" path="AndEngineMultiplayerExtension" revision="849d87ecd396a427d8a4e3a5a2c4bba4f21f3862"/>
+  <project name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" path="AndEnginePhysicsBox2DExtension" revision="5af9f22225af6aca29e0098918e429a715e7a5dc"/>
+  <project name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" path="AndEngineSVGTextureRegionExtension" revision="bb36ec2b0f6b2f8a76705fffcb1e6c72265dc1a0"/>
+  <project name="nicolasgramlich/AndEngineTMXTiledMapExtension.git" path="AndEngineTMXTiledMapExtension" revision="16b92768e811c603cda3ecaba5d837d0356a0ad8"/>
+  <project name="nicolasgramlich/AndEngineTest.git" path="AndEngineTest" revision="5eb7f2400840104c3e4aa0e35888f088f1803ddf"/>
+  <project name="nicolasgramlich/AndEngineTexturePackerExtension.git" path="AndEngineTexturePackerExtension" revision="91c7534da39777c6d093fc9f0448d5f53c66e6ac"/>
 </manifest>
