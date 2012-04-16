@@ -1,57 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- remotes -->
-  <remote  name="github-ssh"
+  <remote name="github-ssh"
            fetch="ssh://git@github.com" />
-  <remote  name="nazgee"
-           fetch="https://github.com/nazgee/" />
-  <remote  name="nicolas"
-           fetch="https://github.com/nicolasgramlich/" />
+  <remote name="github-git"
+           fetch="git://github.com" />
+  <remote name="github-https"
+           fetch="https://github.com" />
 
 <!-- default values -->
   <default revision="GLES2"
-           remote="nicolas" />
-
-<!-- projects -->
-
-<!-- eagle game core -->
-  <project path="eagle"
-           remote="github-ssh"
-           revision="master"
-           name="nazgee/eagle" />
-
-<!-- custom andengine utils -->
-  <project path="utils"
-           remote="github-ssh"
-           revision="master"
-           name="nazgee/ae-utils" />
+           remote="github-git" />
 
 <!-- andengine core + extensions -->
-<!-- TODO: Switch back to nicholas, when he fixes his branch -->
   <project path="AndEngine"
-           remote="nazgee"
-           name="AndEngine.git" />
+           name="nicolasgramlich/AndEngine.git" />
   <project path="AndEngineLiveWallpaperExtension"
-           name="AndEngineLiveWallpaperExtension.git" />
+           name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
   <project path="AndEngineTexturePackerExtension"
-           name="AndEngineTexturePackerExtension.git" />
+           name="nicolasgramlich/AndEngineTexturePackerExtension.git" />
   <project path="AndEngineTest"
-           name="AndEngineTest.git" />
+           name="nicolasgramlich/AndEngineTest.git" />
+  <!-- eagle has some specific stuff done inf TMX extension -->
   <project path="AndEngineTMXTiledMapExtension"
-           remote="nazgee"
-           name="AndEngineTMXTiledMapExtension.git" />
+           name="nazgee/AndEngineTMXTiledMapExtension.git" />
   <project path="AndEngineSVGTextureRegionExtension"
-           name="AndEngineSVGTextureRegionExtension.git" />
+           name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
-           name="AndEnginePhysicsBox2DExtension.git" />
+           name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
   <project path="AndEngineMultiplayerExtension"
-           name="AndEngineMultiplayerExtension.git" />
-  <project path="AndEngineMODPlayerExtension"
-           revision="master"
-           remote="nicolas"
-           name="AndEngineMODPlayerExtension.git" />
+           name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
   <project path="AndEngineAugmentedRealityExtension"
-           name="AndEngineAugmentedRealityExtension.git" />
+           name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" />
   <project path="AndEngineExamples"
-           name="AndEngineExamples.git" />
+           name="nicolasgramlich/AndEngineExamples.git" />
+  <project path="AndEngineMODPlayerExtension"
+           name="nicolasgramlich/AndEngineMODPlayerExtension.git"
+           revision="master" />
+
+<!-- application-specific projects -->
+  <project path="eagle"
+           name="nazgee/eagle.git"
+           revision="master"
+           remote="github-ssh" />
+  <project path="utils"
+           name="nazgee/ae-utils.git"
+           revision="master"
+           remote="github-ssh" />
 </manifest>
