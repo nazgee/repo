@@ -46,5 +46,5 @@
            remote="github-http" />
   <project path="utils"
            name="nazgee/ae-utils.git"
-           revision="pure" />
+           revision="master" />
 </manifest>
