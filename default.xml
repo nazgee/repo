@@ -42,5 +42,6 @@
 <!-- application-specific projects -->
   <project path="simple"
            name="nazgee/ae-stub.git"
+           remote="github-http"
            revision="simple" />
 </manifest>
