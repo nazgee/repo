@@ -7,6 +7,8 @@
            fetch="git://github.com" />
   <remote  name="github-https"
            fetch="https://github.com" />
+  <remote  name="github-http"
+           fetch="http://github.com" />
 
 <!-- default values -->
   <default revision="GLES2"
