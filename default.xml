@@ -40,7 +40,12 @@
            revision="master" />
 
 <!-- application-specific projects -->
-  <project path="simple"
-           name="nazgee/ae-stub.git"
-           revision="simple" />
+  <project path="flower"
+           name="nazgee/flower.git"
+           revision="master"
+           remote="github-ssh" />
+  <project path="utils"
+           name="nazgee/ae-utils.git"
+           revision="master"
+           remote="github-ssh" />
 </manifest>
