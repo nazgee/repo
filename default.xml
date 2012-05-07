@@ -43,9 +43,9 @@
   <project path="flower"
            name="nazgee/flower.git"
            revision="master"
-           remote="github-ssh" />
+           remote="github-http" />
   <project path="utils"
            name="nazgee/ae-utils.git"
            revision="master"
-           remote="github-ssh" />
+           remote="github-http" />
 </manifest>
