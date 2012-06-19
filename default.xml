@@ -16,6 +16,7 @@
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
+           revision="GLES2-AnchorCenter"
            name="nicolasgramlich/AndEngine.git" />
   <project path="AndEngineLiveWallpaperExtension"
            name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
@@ -34,15 +35,19 @@
   <project path="AndEngineAugmentedRealityExtension"
            name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" />
   <project path="AndEngineExamples"
+           revision="GLES2-AnchorCenter"
            name="nicolasgramlich/AndEngineExamples.git" />
   <project path="AndEngineMODPlayerExtension"
            name="nicolasgramlich/AndEngineMODPlayerExtension.git"
            revision="master" />
+  <project path="AndEngineCocosBuilderExtension"
+           revision="GLES2-AnchorCenter"
+           name="nicolasgramlich/AndEngineCocosBuilderExtension.git" />
 
 <!-- application-specific projects -->
   <project path="flower"
            name="nazgee/flower.git"
-           revision="master"
+           revision="AnchorCenter"
            remote="github-ssh" />
   <project path="utils"
            name="nazgee/ae-utils.git"
