@@ -51,6 +51,6 @@
            remote="github-ssh" />
   <project path="utils"
            name="nazgee/ae-utils.git"
-           revision="master"
+           revision="AnchorCenter"
            remote="github-ssh" />
 </manifest>
