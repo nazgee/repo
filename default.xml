@@ -11,11 +11,12 @@
            fetch="http://github.com" />
 
 <!-- default values -->
-  <default revision="GLES2-AnchorCenter"
+  <default revision="GLES2"
            remote="github-git" />
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
+           revision="GLES2-AnchorCenter"
            name="nicolasgramlich/AndEngine.git" />
   <project path="AndEngineLiveWallpaperExtension"
            name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
