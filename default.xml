@@ -11,7 +11,7 @@
            fetch="http://github.com" />
 
 <!-- default values -->
-  <default revision="GLES2"
+  <default revision="GLES2-AnchorCenter"
            remote="github-git" />
 
 <!-- andengine core + extensions -->
@@ -46,6 +46,6 @@
            remote="github-http" />
   <project path="utils"
            name="nazgee/ae-utils.git"
-           revision="AnchorCenter"
+           revision="master"
            remote="github-http" />
 </manifest>
