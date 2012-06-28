@@ -20,6 +20,7 @@
   <project path="AndEngineLiveWallpaperExtension"
            name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
   <project path="AndEngineTexturePackerExtension"
+           revision="GLES2"
            name="nicolasgramlich/AndEngineTexturePackerExtension.git" />
   <project path="AndEngineTest"
            name="nicolasgramlich/AndEngineTest.git" />
@@ -43,6 +44,6 @@
 
 <!-- application-specific projects -->
   <project path="astro"
-           name="nazgee/ae-repo.git"
+           name="nazgee/astro.git"
            revision="master" />
 </manifest>
