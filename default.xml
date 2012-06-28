@@ -30,6 +30,7 @@
   <project path="AndEnginePhysicsBox2DExtension"
            name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
   <project path="AndEngineMultiplayerExtension"
+           revision="GLES2"
            name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
   <project path="AndEngineAugmentedRealityExtension"
            name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" />
