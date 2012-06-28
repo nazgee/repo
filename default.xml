@@ -26,6 +26,7 @@
   <project path="AndEngineTMXTiledMapExtension"
            name="nicolasgramlich/AndEngineTMXTiledMapExtension.git" />
   <project path="AndEngineSVGTextureRegionExtension"
+           revision="GLES2"
            name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
            name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
