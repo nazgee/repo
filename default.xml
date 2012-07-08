@@ -40,6 +40,8 @@
            name="nicolasgramlich/AndEngineExamples.git" />
   <project path="AndEngineCocosBuilderExtension"
            name="nicolasgramlich/AndEngineCocosBuilderExtension.git" />
+  <project path="AndEngineCocosBuilderExtensionCCRotatingSpriteExtension"
+           name="nicolasgramlich/AndEngineCocosBuilderExtensionCCRotatingSpriteExtension.git" />
   <project path="AndEngineMODPlayerExtension"
            name="nicolasgramlich/AndEngineMODPlayerExtension.git"
            revision="master" />
