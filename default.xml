@@ -44,7 +44,7 @@
 
 <!-- application-specific projects -->
   <project path="astro"
-           remote="github-ssh"
+           remote="github-http"
            name="nazgee/astro.git"
            revision="master" />
 </manifest>
