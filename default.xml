@@ -11,38 +11,41 @@
            fetch="http://github.com" />
 
 <!-- default values -->
-  <default revision="GLES2"
+  <default revision="GLES2-AnchorCenter"
            remote="github-git" />
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
-           revision="GLES2-AnchorCenter"
            name="nicolasgramlich/AndEngine.git" />
   <project path="AndEngineLiveWallpaperExtension"
            name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
   <project path="AndEngineTexturePackerExtension"
+           revision="GLES2"
            name="nicolasgramlich/AndEngineTexturePackerExtension.git" />
   <project path="AndEngineTest"
            name="nicolasgramlich/AndEngineTest.git" />
   <project path="AndEngineTMXTiledMapExtension"
            name="nicolasgramlich/AndEngineTMXTiledMapExtension.git" />
   <project path="AndEngineSVGTextureRegionExtension"
+           revision="GLES2"
            name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
            name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
   <project path="AndEngineMultiplayerExtension"
+           revision="GLES2"
            name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
   <project path="AndEngineAugmentedRealityExtension"
            name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" />
   <project path="AndEngineExamples"
-           revision="GLES2-AnchorCenter"
            name="nicolasgramlich/AndEngineExamples.git" />
+  <project path="AndEngineCocosBuilderExtension"
+           name="nicolasgramlich/AndEngineCocosBuilderExtension.git" />
+  <project path="AndEngineCocosBuilderExtensionCCRotatingSpriteExtension"
+           name="nicolasgramlich/AndEngineCocosBuilderExtensionCCRotatingSpriteExtension.git" />
   <project path="AndEngineMODPlayerExtension"
            name="nicolasgramlich/AndEngineMODPlayerExtension.git"
            revision="master" />
-  <project path="AndEngineCocosBuilderExtension"
-           revision="GLES2-AnchorCenter"
-           name="nicolasgramlich/AndEngineCocosBuilderExtension.git" />
+
 
 <!-- application-specific projects -->
   <project path="flower"
