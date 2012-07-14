@@ -8,16 +8,16 @@
   <default remote="github-git" revision="GLES2"/>
   
   <project name="nazgee/AndEngineTMXTiledMapExtension.git" path="AndEngineTMXTiledMapExtension" revision="f9be679d31e2cc95e61af24618d0f33e6b065c4d"/>
-  <project name="nazgee/ae-utils.git" path="utils" remote="github-ssh" revision="78488b8bcb67ba73ce1a5590c5200bada6078257"/>
-  <project name="nazgee/eagle.git" path="eagle" remote="github-ssh" revision="bfae8dd1dda06af47df5a1de8c09d9cc05c24d47"/>
-  <project name="nicolasgramlich/AndEngine.git" path="AndEngine" revision="2ef25374a6ad82cb38045b7cb21b9526b8bb3dd7"/>
+  <project name="nazgee/ae-utils.git" path="utils" remote="github-ssh" revision="dc40d08cced380df0366789e645d99acd38c1f9b"/>
+  <project name="nazgee/eagle.git" path="eagle" remote="github-ssh" revision="f95e0166d0c408639aa39b43f7eb5710f293d403"/>
+  <project name="nicolasgramlich/AndEngine.git" path="AndEngine" revision="72db5f16afd5160f6a356454fdb85af4bb392863"/>
   <project name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" path="AndEngineAugmentedRealityExtension" revision="8e9a6449290a34c9c92b0b38d0f8eca38d3aa2a8"/>
   <project name="nicolasgramlich/AndEngineExamples.git" path="AndEngineExamples" revision="cae0fa922a56ea542fe42904ea210e0e5852fb28"/>
-  <project name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" path="AndEngineLiveWallpaperExtension" revision="c03d0c50482b9634954ac3025c6f576b22045645"/>
+  <project name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" path="AndEngineLiveWallpaperExtension" revision="6edb19d09faabe45a5657b731414c8ed65499242"/>
   <project name="nicolasgramlich/AndEngineMODPlayerExtension.git" path="AndEngineMODPlayerExtension" revision="bdfcbf3b4fcc9cb3a18eb6411d66b9387b0011f6"/>
-  <project name="nicolasgramlich/AndEngineMultiplayerExtension.git" path="AndEngineMultiplayerExtension" revision="849d87ecd396a427d8a4e3a5a2c4bba4f21f3862"/>
+  <project name="nicolasgramlich/AndEngineMultiplayerExtension.git" path="AndEngineMultiplayerExtension" revision="162baee3fb0c46ada43f4a8421c69238932028c4"/>
   <project name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" path="AndEnginePhysicsBox2DExtension" revision="fb694e50b2846b5ac6079ceaa44d8425a51aacea"/>
-  <project name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" path="AndEngineSVGTextureRegionExtension" revision="b67da4ae698a7ab78a6bd65dfac81244f043b791"/>
+  <project name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" path="AndEngineSVGTextureRegionExtension" revision="fae46379852e3693932587a79236218ecb5911c3"/>
   <project name="nicolasgramlich/AndEngineTest.git" path="AndEngineTest" revision="63809286375358e6e80db89babf21afe3146519d"/>
-  <project name="nicolasgramlich/AndEngineTexturePackerExtension.git" path="AndEngineTexturePackerExtension" revision="39a4566378941b210b1b2705b6f6869366eb8ff8"/>
+  <project name="nicolasgramlich/AndEngineTexturePackerExtension.git" path="AndEngineTexturePackerExtension" revision="7593aced5a1f549e9fc7280dfd3455729f596f57"/>
 </manifest>
