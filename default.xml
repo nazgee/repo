@@ -47,6 +47,6 @@
            remote="github-ssh" />
   <project path="utils"
            name="nazgee/ae-utils.git"
-           revision="master"
+           revision="eagle"
            remote="github-ssh" />
 </manifest>
