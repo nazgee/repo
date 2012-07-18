@@ -47,7 +47,8 @@
            revision="master" />
 
 <!-- application-specific projects -->
-  <project path="simple"
-           name="nazgee/ae-stub.git"
-           revision="simple" />
+  <project path="light"
+           remote="github-ssh"
+           name="nazgee/light.git"
+           revision="master" />
 </manifest>
