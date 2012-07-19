@@ -48,7 +48,7 @@
 
 <!-- application-specific projects -->
   <project path="light"
-           remote="github-ssh"
+           remote="github-http"
            name="nazgee/light.git"
            revision="master" />
 </manifest>
