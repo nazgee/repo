@@ -12,7 +12,7 @@
 
 <!-- default values -->
   <default revision="GLES2-AnchorCenter"
-           remote="github-git" />
+           remote="github-ssh" />
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
