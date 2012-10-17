@@ -47,7 +47,7 @@
            revision="master" />
 
 <!-- application-specific projects -->
-  <project path="simple"
-           name="nazgee/ae-stub.git"
-           revision="simple" />
+  <project path="eccerobo-remote"
+           name="nazgee/eccerobo-remote.git"
+           revision="master" />
 </manifest>
