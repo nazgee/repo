@@ -47,7 +47,8 @@
            revision="master" />
 
 <!-- application-specific projects -->
-  <project path="simple"
+  <project path="sunflower"
+           remote="github-ssh"
            name="nazgee/ae-stub.git"
-           revision="simple" />
+           revision="sunflower" />
 </manifest>
