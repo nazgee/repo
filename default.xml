@@ -47,10 +47,10 @@
 <!-- application-specific projects -->
   <project path="flower"
            name="nazgee/flower.git"
-           revision="AnchorCenter"
+           revision="master"
            remote="github-http" />
   <project path="utils"
            name="nazgee/ae-utils.git"
-           revision="AnchorCenter"
+           revision="master"
            remote="github-http" />
 </manifest>
