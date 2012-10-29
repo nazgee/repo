@@ -16,7 +16,7 @@
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
-           name="nicolasgramlich/AndEngine.git" />
+           name="nazgee/AndEngine.git" />
   <project path="AndEngineLiveWallpaperExtension"
            name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
   <project path="AndEngineTexturePackerExtension"
