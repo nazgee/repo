@@ -47,8 +47,8 @@
            revision="master" />
 
 <!-- application-specific projects -->
-  <project path="sunflower"
+  <project path="spider"
            remote="github-ssh"
-           name="nazgee/sunflower.git"
+           name="nazgee/spider.git"
            revision="master" />
 </manifest>
