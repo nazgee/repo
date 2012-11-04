@@ -47,7 +47,7 @@
            revision="master" />
   <project path="AndEngineDebugDrawExtension"
            remote="github-ssh"
-           name="nazgee/AndEngineMODPlayerExtension.git"/>
+           name="nazgee/AndEngineDebugDrawExtension.git"/>
 
 <!-- application-specific projects -->
   <project path="spider"
