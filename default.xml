@@ -45,6 +45,9 @@
   <project path="AndEngineMODPlayerExtension"
            name="nicolasgramlich/AndEngineMODPlayerExtension.git"
            revision="master" />
+  <project path="AndEngineDebugDrawExtension"
+           remote="github-ssh"
+           name="nazgee/AndEngineMODPlayerExtension.git"/>
 
 <!-- application-specific projects -->
   <project path="spider"
