@@ -12,7 +12,7 @@
 
 <!-- default values -->
   <default revision="GLES2-AnchorCenter"
-           remote="github-git" />
+           remote="github-http" />
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
@@ -46,12 +46,12 @@
            name="nicolasgramlich/AndEngineMODPlayerExtension.git"
            revision="master" />
   <project path="AndEngineDebugDrawExtension"
-           remote="github-ssh"
+           remote="github-http"
            name="nazgee/AndEngineDebugDrawExtension.git"/>
 
 <!-- application-specific projects -->
   <project path="spider"
-           remote="github-ssh"
+           remote="github-http"
            name="nazgee/spider.git"
            revision="master" />
 </manifest>
