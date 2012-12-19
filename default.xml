@@ -30,7 +30,7 @@
            revision="GLES2"
            name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
-           name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
+           name="RealFictionFactory/AndEnginePhysicsBox2DExtension.git" />
   <project path="AndEngineMultiplayerExtension"
            revision="GLES2"
            name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
