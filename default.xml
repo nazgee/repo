@@ -47,7 +47,8 @@
            revision="master" />
   <project path="AndEngineDebugDrawExtension"
            remote="github-ssh"
-           name="nazgee/AndEngineDebugDrawExtension.git"/>
+           name="nazgee/AndEngineDebugDrawExtension.git"
+           revision="GLES2-AnchorCenter-latest-B2D"/>
 
 <!-- application-specific projects -->
   <project path="spider"
