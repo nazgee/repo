@@ -30,7 +30,7 @@
            revision="GLES2"
            name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
-           name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
+           name="RealFictionFactory/AndEnginePhysicsBox2DExtension.git" />
   <project path="AndEngineMultiplayerExtension"
            revision="GLES2"
            name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
@@ -47,8 +47,12 @@
            revision="master" />
   <project path="AndEngineDebugDrawExtension"
            remote="github-http"
-           name="nazgee/AndEngineDebugDrawExtension.git"/>
-
+           name="nazgee/AndEngineDebugDrawExtension.git"
+           revision="GLES2-AnchorCenter-latest-B2D"/>
+  <project path="AndEngineDebugDrawExtension"
+           remote="github-ssh"
+           name="nazgee/AndEngineBox2DLoaderExtension.git"
+           revision="master"/>
 <!-- application-specific projects -->
   <project path="spider"
            remote="github-http"
