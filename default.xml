@@ -49,7 +49,7 @@
            remote="github-ssh"
            name="nazgee/AndEngineDebugDrawExtension.git"
            revision="GLES2-AnchorCenter-latest-B2D"/>
-  <project path="AndEngineDebugDrawExtension"
+  <project path="AndEngineBox2DLoaderExtension"
            remote="github-ssh"
            name="nazgee/AndEngineBox2DLoaderExtension.git"
            revision="master"/>
