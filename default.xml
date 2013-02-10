@@ -16,7 +16,7 @@
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
-           name="nicolasgramlich/AndEngine.git" />
+           name="nazgee/AndEngine.git" />
   <project path="AndEngineLiveWallpaperExtension"
            name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
   <project path="AndEngineTexturePackerExtension"
@@ -30,7 +30,7 @@
            revision="GLES2"
            name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
-           name="nicolasgramlich/AndEnginePhysicsBox2DExtension.git" />
+           name="RealFictionFactory/AndEnginePhysicsBox2DExtension.git" />
   <project path="AndEngineMultiplayerExtension"
            revision="GLES2"
            name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
@@ -45,9 +45,16 @@
   <project path="AndEngineMODPlayerExtension"
            name="nicolasgramlich/AndEngineMODPlayerExtension.git"
            revision="master" />
-
+  <project path="AndEngineDebugDrawExtension"
+           name="nazgee/AndEngineDebugDrawExtension.git"
+           revision="GLES2-AnchorCenter-latest-B2D"
+           remote="github-ssh" />
+  <project path="AndEngineRubeLoaderExtension"
+           name="nazgee/AndEngineRubeLoaderExtension.git"
+           remote="github-ssh" />
 <!-- application-specific projects -->
-  <project path="simple"
-           name="nazgee/ae-stub.git"
-           revision="simple" />
+  <project path="rube"
+           remote="github-ssh"
+           name="nazgee/rube.git"
+           revision="master" />
 </manifest>
