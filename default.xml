@@ -12,7 +12,7 @@
 
 <!-- default values -->
   <default revision="GLES2-AnchorCenter"
-           remote="github-git" />
+           remote="github-http" />
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
@@ -48,13 +48,13 @@
   <project path="AndEngineDebugDrawExtension"
            name="nazgee/AndEngineDebugDrawExtension.git"
            revision="GLES2-AnchorCenter-latest-B2D"
-           remote="github-ssh" />
+           remote="github-http" />
   <project path="AndEngineRubeLoaderExtension"
            name="nazgee/AndEngineRubeLoaderExtension.git"
-           remote="github-ssh" />
+           remote="github-http" />
 <!-- application-specific projects -->
   <project path="rube"
-           remote="github-ssh"
+           remote="github-http"
            name="nazgee/rube.git"
            revision="master" />
 </manifest>
