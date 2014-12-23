@@ -11,50 +11,30 @@
            fetch="http://github.com" />
 
 <!-- default values -->
-  <default revision="GLES2-AnchorCenter"
+  <default revision="GLES2-AnchorCenter-gradle"
            remote="github-http" />
 
 <!-- andengine core + extensions -->
   <project path="AndEngine"
            name="nazgee/AndEngine.git" />
-  <project path="AndEngineLiveWallpaperExtension"
-           name="nicolasgramlich/AndEngineLiveWallpaperExtension.git" />
-  <project path="AndEngineTexturePackerExtension"
-           revision="GLES2"
-           name="nicolasgramlich/AndEngineTexturePackerExtension.git" />
-  <project path="AndEngineTest"
-           name="nicolasgramlich/AndEngineTest.git" />
-  <project path="AndEngineTMXTiledMapExtension"
-           name="nicolasgramlich/AndEngineTMXTiledMapExtension.git" />
-  <project path="AndEngineSVGTextureRegionExtension"
-           revision="GLES2"
-           name="nicolasgramlich/AndEngineSVGTextureRegionExtension.git" />
   <project path="AndEnginePhysicsBox2DExtension"
-           name="RealFictionFactory/AndEnginePhysicsBox2DExtension.git" />
-  <project path="AndEngineMultiplayerExtension"
-           revision="GLES2"
-           name="nicolasgramlich/AndEngineMultiplayerExtension.git" />
-  <project path="AndEngineAugmentedRealityExtension"
-           name="nicolasgramlich/AndEngineAugmentedRealityExtension.git" />
-  <project path="AndEngineExamples"
-           name="nicolasgramlich/AndEngineExamples.git" />
-  <project path="AndEngineCocosBuilderExtension"
-           name="nicolasgramlich/AndEngineCocosBuilderExtension.git" />
-  <project path="AndEngineCocosBuilderExtensionCCRotatingSpriteExtension"
-           name="nicolasgramlich/AndEngineCocosBuilderExtensionCCRotatingSpriteExtension.git" />
-  <project path="AndEngineMODPlayerExtension"
-           name="nicolasgramlich/AndEngineMODPlayerExtension.git"
-           revision="master" />
+           name="nazgee/AndEnginePhysicsBox2DExtension.git"
+           revision="GLES2-AnchorCenter-latest-B2D-gradle" />
   <project path="AndEngineDebugDrawExtension"
            name="nazgee/AndEngineDebugDrawExtension.git"
-           revision="GLES2-AnchorCenter-latest-B2D"
-           remote="github-http" />
+           revision="GLES2-AnchorCenter-latest-B2D-gradle" />
   <project path="AndEngineRubeLoaderExtension"
            name="nazgee/AndEngineRubeLoaderExtension.git"
-           remote="github-http" />
+           remote="github-http"
+           revision="master-gradle" />
+  <project path="AndEngineLimbo"
+           name="nazgee/AndEngineLimbo.git"
+           remote="github-http"
+           revision="master-gradle" />
+
 <!-- application-specific projects -->
-  <project path="rube"
+  <project path="breaker"
            remote="github-http"
            name="nazgee/rube.git"
-           revision="master" />
+           revision="breaker-gradle" />
 </manifest>
