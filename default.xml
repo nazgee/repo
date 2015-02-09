@@ -17,23 +17,13 @@
 <!-- andengine core + extensions -->
   <project path="AndEngine"
            name="nazgee/AndEngine.git" />
-  <project path="AndEnginePhysicsBox2DExtension"
-           name="nazgee/AndEnginePhysicsBox2DExtension.git"
-           revision="GLES2-AnchorCenter-latest-B2D-gradle" />
-  <project path="AndEngineDebugDrawExtension"
-           name="nazgee/AndEngineDebugDrawExtension.git"
-           revision="GLES2-AnchorCenter-latest-B2D-gradle" />
-  <project path="AndEngineRubeLoaderExtension"
-           name="nazgee/AndEngineRubeLoaderExtension.git"
-           remote="github-http"
-           revision="master-gradle" />
   <project path="AndEngineLimbo"
            name="nazgee/AndEngineLimbo.git"
            remote="github-http"
            revision="master-gradle" />
 
 <!-- application-specific projects -->
-  <project path="breaker"
+  <project path="traveler"
            remote="github-http"
            name="nazgee/rube.git"
            revision="breaker-gradle" />
