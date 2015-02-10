@@ -20,11 +20,11 @@
   <project path="AndEngineLimbo"
            name="nazgee/AndEngineLimbo.git"
            remote="github-http"
-           revision="master-gradle" />
+           revision="nophysics-gradle" />
 
 <!-- application-specific projects -->
   <project path="traveler"
            remote="github-http"
            name="nazgee/rube.git"
-           revision="breaker-gradle" />
+           revision="traveler" />
 </manifest>
