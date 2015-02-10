@@ -25,6 +25,6 @@
 <!-- application-specific projects -->
   <project path="traveler"
            remote="github-http"
-           name="nazgee/rube.git"
-           revision="traveler" />
+           name="nazgee/traveler.git"
+           revision="master" />
 </manifest>
